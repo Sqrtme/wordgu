@@ -35,7 +35,7 @@ async function createUserByCredentials(req: NextApiRequest, res: NextApiResponse
         _id: status.insertedId
       })
       
-      const token = await jwtHelper(user.login, user.password, process.env.SECRET as string);
+      const token = await jwtHelper(user?.login, user?.password, process.env.SECRET as string);
       //Send success response
       res.status(200).json({ message: 'User created', token });
       //Close DB connection
