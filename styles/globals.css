@@ -1,0 +1,36 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Tahoma;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: black;
+    background: #EFE2BA;
+  }
+}
+.colors {
+  color: #D79922
+  #EFE2BA
+   #F13C20
+   #4056A1
+   #C5CBE3 
+
+}

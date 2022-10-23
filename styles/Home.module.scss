@@ -1,0 +1,12 @@
+.container {
+  margin-top: 40vh;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & input {
+    margin-bottom: 16px;
+    padding: 4px 6px;
+  }
+}

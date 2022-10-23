@@ -1,0 +1,17 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  p {
+    cursor: pointer;
+    padding-right: 16px;
+  }
+}
+
+.navBar {
+  display: flex;
+  justify-content: flex-start;
+
+
+}
